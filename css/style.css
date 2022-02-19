@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: helvetica, sans-serif;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 13vh;
+    gap: 50rem;
+}
+
+header .logo {
+    width: 18rem;
+}
+
+.header-menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.header-menu-items, .header-menu-profile{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.2s ;
+}
+
+.header-menu-items:hover, .header-menu-profile:hover{
+    color: #1ed760;
+}
+
+.header-menu-separator {
+    background-color: white;
+    width: 0.1rem;
+    height: 1.5rem;
+    margin: 1rem;
+}
+
+button.header-menu-profile {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.header-menu-profile img {
+    border-radius: 50%;
+    width: 4.5rem;
+}
+
+.section-player {
+    height: 90vh;
+}
+
+.section-promo {
+    background-color: rgb(255, 205, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #D83519;
+    padding: 13.3rem 0 13.2rem 0;
+}
+
+.section-promo-title {
+    padding-top: 4.8rem;
+}
+
+.section-promo-title h1{
+    font-size: 8rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.section-promo-button{
+    margin: 5rem 0;
+}
+
+.section-promo-button a {
+    background-color: #D83519;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700; 
+    color: #fff;
+    will-change: box-shadow,transform;
+}
+
+.section-promo-button a:hover{
+    background-color: #AA2A14;
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, rgba(0, 0, 0, 0.1) 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.section-promo-desc p {
+    font-size: 1.2rem;
+}
+
+.section-player {
+    background-color: rgb(41, 65, 171);
+    background-image: url(../assets/circles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1ed760;
+}
+
+.section-player article {
+    display: flex;
+    flex-direction: column;
+    padding: 15rem 10rem;
+}
+
+.section-player-title h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.section-player-desc p {
+    font-size: 2rem;
+    margin: 5rem 0;
+}
+
+.section-player-button a {
+    background-color: #1ed760;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700; 
+    color: rgb(41, 65, 171);
+    will-change: box-shadow,transform;
+}
+
+.section-player-button a:hover {
+    background-color: #2DE26D;
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, rgba(0, 0, 0, 0.1) 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+/* OIII MARCOS, VOCÊ PAROU AQUI, DORMIU BEM??? :) */
+footer {
+    background-color: #000;
+    color: white;
+}
+
+
+
