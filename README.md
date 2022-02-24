@@ -6,7 +6,6 @@ Replicação da mais nova página do spotify, abordando conceitos em Javascript,
 https://spotifyclone-gamma.vercel.app/  
 
 ![Screenshot](telas/principal.png)
-![Screenshot](telas/mobile.png)
 
 **Languages and Tools:**  
 
