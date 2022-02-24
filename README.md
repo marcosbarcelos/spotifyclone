@@ -3,7 +3,7 @@
 Replicação da mais nova página do spotify, abordando conceitos em Javascript, HTML e CSS.
 
 ## Acesse
-https://calculadora-imc-ochre.vercel.app  
+https://spotifyclone-gamma.vercel.app/  
 
 ![Screenshot](telas/principal.png)
 ![Screenshot](telas/mobile.png)
