@@ -40,13 +40,14 @@ header {
     color: #fff;
     font-weight: bold;
     font-size: 1.5rem;
-    transition: 0.2s ;
+    transition: 0.2s;
 }
 
 .header-menu-items:hover,
 .header-menu-profile:hover,
 .header-menu-profile-dropdown-options a:hover,
-.header-menu-mobile-items:hover {
+.header-menu-mobile-items:hover,
+.footer-links a:hover {
     color: #1ed760;
 }
 
@@ -66,7 +67,7 @@ header {
     cursor: pointer;
 }
 
-.header-menu-profile img{
+.header-menu-profile img {
     border-radius: 50%;
     width: 4.5rem;
 }
@@ -85,20 +86,20 @@ header {
     background-color: #fff;
     margin: 1rem 0 0;
     border-radius: 3px;
-    box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
     padding: 1rem 8rem 2rem 2rem;
 }
 
 .header-menu-profile-dropdown-options::before {
-        content: "";        
-        position: absolute;
-        top: -12px;
-        right: 0.5rem;
-        width: 0px;
-        height: 0px;
-        border-left: 16px solid transparent;
-        border-right: 16px solid transparent;
-        border-bottom: 16px solid #fff;
+    content: "";
+    position: absolute;
+    top: -12px;
+    right: 0.5rem;
+    width: 0px;
+    height: 0px;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid #fff;
 }
 
 .header-menu-profile-dropdown-options li {
@@ -122,8 +123,6 @@ header {
     color: #fff;
     font-size: 3rem;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     gap: 2rem;
 }
 
@@ -181,13 +180,13 @@ header {
     padding-top: 4.8rem;
 }
 
-.section-promo-title h1{
+.section-promo-title h1 {
     font-size: 8rem;
     text-transform: capitalize;
     font-weight: 700;
 }
 
-.section-promo-button{
+.section-promo-button {
     margin: 5rem 0;
 }
 
@@ -197,15 +196,15 @@ header {
     font-size: 1.5rem;
     padding: 1.5rem 3rem;
     text-transform: uppercase;
-    font-weight: 700; 
+    font-weight: 700;
     color: #fff;
-    will-change: box-shadow,transform;
+    will-change: box-shadow, transform;
 }
 
-.section-promo-button a:hover{
+.section-promo-button a:hover {
     background-color: #AA2A14;
-    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, 
-                rgba(45, 35, 66, 0.2) 0 7px 13px -3px, 
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px,
+                rgba(45, 35, 66, 0.2) 0 7px 13px -3px,
                 rgba(0, 0, 0, 0.1) 0 -3px 0 inset;
     transform: translateY(-2px);
 }
@@ -222,7 +221,7 @@ header {
     background-size: cover;
     background-position: right center;
     color: #1ed760;
-    height: 85vh
+    height: 85vh;
 }
 
 .section-player-article {
@@ -233,7 +232,6 @@ header {
 
 .section-player-title h1 {
     font-size: 5rem;
-    font-weight: bold;
 }
 
 .section-player-desc p {
@@ -247,55 +245,87 @@ header {
     font-size: 1.5rem;
     padding: 1.5rem 3rem;
     text-transform: uppercase;
-    font-weight: 700; 
+    font-weight: 700;
     color: rgb(41, 65, 171);
-    will-change: box-shadow,transform;
+    will-change: box-shadow, transform;
 }
 
 .section-player-button a:hover {
     background-color: #2DE26D;
-    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, 
-                rgba(45, 35, 66, 0.2) 0 7px 13px -3px, 
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px,
+                rgba(45, 35, 66, 0.2) 0 7px 13px -3px,
                 rgba(0, 0, 0, 0.1) 0 -3px 0 inset;
     transform: translateY(-2px);
 }
 
 footer {
     background-color: #000;
-    color: white;
-    padding: 8rem;
-}
-
-.footer-container {
-    font-size: 1.8rem;
-    padding: 1.5rem 0;
+    color: #fff;
+    padding: 6rem;
 }
 
 .footer-logo {
-    display: inline-block;
     position: absolute;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 15rem;
+    height: 6rem;
 }
 
 .footer-links {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
     gap: 5rem;
-    padding: 4.5rem 0;
+    padding: 3.7rem 15rem;
 }
 
-.footer-social a{
-    display: inline-flex;
+.footer-links dl dt {
+    padding-bottom: 2rem;
+    color: #919496;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: .08em;
 }
 
+.footer-links dl dd a {
+    font-size: 1.6rem;
+    line-height: 2.5;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: #fff;
+}
 
+.footer-social {
+    position: absolute;
+    right: 6rem;
+}
 
+.footer-social ul {
+    display: flex;
+    gap: 1rem;
+}
 
+.footer-social ul li a {
+    background-color: #222326;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
 
+.footer-location {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
 
+.footer-location a {
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0.5;
+}
 
-
+.footer-location :nth-child(1) {
+    color: #1ed760;
+}
