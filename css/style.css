@@ -132,7 +132,7 @@ header {
 }
 
 .header-menu-mobile-container {
-    display: none;
+    /* display: none;  */
     background-color: #000;
     position: absolute;
     right: 0;

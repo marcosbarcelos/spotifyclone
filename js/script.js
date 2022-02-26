@@ -2,8 +2,8 @@ const ButtonDropdown = document.getElementById('btn-dropdown');
 const ButtonMobile = document.getElementById('btn-mobile');
 
 function DropdownMenu() {
-    let Dropdown = document.getElementById('dropdown');
-    let icon = document.getElementById('icon');
+    const Dropdown = document.getElementById('dropdown');
+    const icon = document.getElementById('icon');
 
     if (Dropdown.style.display === "none") {
         Dropdown.style.display = "block";
@@ -18,8 +18,8 @@ function DropdownMenu() {
 }
 
 function MobileMenu() {
-    let Container = document.getElementById('menu-container');
-    let IconHamb = document.getElementById('hamb');
+    const Container = document.getElementById('menu-container');
+    const IconHamb = document.getElementById('hamb');
 
     if (Container.style.display === "none") {
         Container.style.display = "block";
