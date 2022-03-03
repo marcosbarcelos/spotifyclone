@@ -1,33 +1,32 @@
-const ButtonDropdown = document.getElementById('btn-dropdown');
-const ButtonMobile = document.getElementById('btn-mobile');
+const buttonDropdown = document.getElementById('btn-dropdown');
+const buttonMobile = document.getElementById('btn-mobile');
 
-function DropdownMenu() {
-    const Dropdown = document.getElementById('dropdown');
+function dropdownMenu() {
+    const dropdown = document.getElementById('dropdown');
     const icon = document.getElementById('icon');
 
-    if (Dropdown.style.display === "none") {
-        Dropdown.style.display = "block";
-        icon.classList.remove('bi-chevron-down')
-        icon.classList.add('bi-chevron-up')
+    if (dropdown.style.display === "none") {
+        dropdown.style.display = "block";
+        icon.classList.remove('bi-chevron-down');
+        icon.classList.add('bi-chevron-up');
 
     } else {
-        Dropdown.style.display = "none";
-        icon.classList.remove('bi-chevron-up')
-        icon.classList.add('bi-chevron-down')
+        dropdown.style.display = "none";
+        icon.classList.remove('bi-chevron-up');
+        icon.classList.add('bi-chevron-down');
     }
 }
 
-function MobileMenu() {
-    const Container = document.getElementById('menu-container');
-    const IconHamb = document.getElementById('hamb');
-
-    if (Container.style.display === "none") {
-        Container.style.display = "block";
+function mobileMenu() {
+    const container = document.getElementById('menu-container');
+    
+    if (container.style.display === "none") {
+        container.style.display = "block";
 
     } else {
-        Container.style.display = "none";
+        container.style.display = "none";
     }
 }
 
-ButtonDropdown.addEventListener('click', DropdownMenu);
-ButtonMobile.addEventListener('click', MobileMenu);
+buttonDropdown.addEventListener('click', dropdownMenu);
+buttonMobile.addEventListener('click', mobileMenu);
