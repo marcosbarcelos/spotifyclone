@@ -77,8 +77,14 @@ header {
     margin-left: 1.5rem;
 }
 
-.header-menu-profile-dropdown {
+/* classe de script1 */
+.hidden {
     display: none;
+}
+
+/* classe de script2 */
+.visible {
+    display: block;
 }
 
 .header-menu-profile-dropdown-options {
@@ -132,7 +138,6 @@ header {
 }
 
 .header-menu-mobile-container {
-    display: none;
     background-color: #000;
     position: absolute;
     right: 0;
