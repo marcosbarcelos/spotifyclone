@@ -16,6 +16,11 @@ html {
     font-family: spotify;
 }
 
+/* classe de script */
+.hidden {
+    display: none;
+}
+
 header {
     background-color: #000;
     display: flex;
@@ -75,16 +80,6 @@ header {
 .header-menu-profile-title i {
     font-size: 1.3rem;
     margin-left: 1.5rem;
-}
-
-/* classe de script1 */
-.hidden {
-    display: none;
-}
-
-/* classe de script2 */
-.visible {
-    display: block;
 }
 
 .header-menu-profile-dropdown-options {
